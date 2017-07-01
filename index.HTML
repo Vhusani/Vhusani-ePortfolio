@@ -1,0 +1,612 @@
+<!DOCTYPE hmtl>
+<html lang="eng">
+      
+<title>Vhusani's ePortfolio</title>
+<head>
+    <meta charset ="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="MyStyle.css"/>
+    
+    
+
+
+  
+
+    <script type="text/javascript" src="Jquery.js">
+    </script>
+    
+
+    <script type="text/javascript">
+          <!------About me------>
+
+                      $(document).ready(function(){
+                    $("#AboutMeDiv").show();
+
+                    $("button#Aboutme").click(function(){
+                        $("#CoursesDiv").hide();
+                        $("#Cvdiv").hide();
+                        $("#Mydiv3").hide();
+                        $("#ResultsDiv").hide();
+                        $("#GalleryDiv").hide();
+                        $("#ContactDiv").hide();
+                        $("#AboutMeDiv").slideToggle(500);
+                        $("#AboutMeDiv").Show();
+
+    });
+});
+
+
+                    $(document).ready(function(){
+                    $("button#btn_Course").click(function(){
+                        $("#AboutMeDiv").hide();
+                        $("#Cvdiv").hide();
+                        $("#Mydiv3").hide();
+                        $("#GalleryDiv").hide();
+                        $("#ResultsDiv").hide();
+                        $("#ContactDiv").hide();
+                        $("#CoursesDiv").slideToggle(500);
+                        $("#CoursesDiv").show();
+
+    });
+});
+
+
+
+
+                    $(document).ready(function(){
+                    $("button#btn_CV").click(function(){
+                        $("#AboutMeDiv").hide();
+                        $("#CoursesDiv").hide();
+                        $("#Mydiv3").hide();
+                        $("#ResultsDiv").hide();
+                        $("#GalleryDiv").hide();
+                        $("#ContactDiv").hide();
+                        $("#Cvdiv").slideToggle(500);
+                        $("#Cvdiv").show();
+
+
+    });
+});
+
+                    $(document).ready(function(){
+                    $("button#btn_results").click(function(){
+                        $("#AboutMeDiv").hide();
+                        $("#CoursesDiv").hide();
+                        $("#Mydiv3").hide();
+                        $("#Cvdiv").hide();
+                        $("#GalleryDiv").hide();
+                        $("#ContactDiv").hide();
+                        $("#ResultsDiv").slideToggle(500);
+                        $("#ResultsDiv").show();
+
+
+    });
+});
+
+                    $(document).ready(function(){
+                    $("button#btn_Gallery").click(function(){
+                        $("#AboutMeDiv").hide();
+                        $("#CoursesDiv").hide();
+                        $("#Mydiv3").hide();
+                        $("#Cvdiv").hide();
+                        $("#ResultsDiv").hide();
+                        $("#ContactDiv").hide();
+                        $("#GalleryDiv").slideToggle(500);
+                        $("#GalleryDiv").show();
+
+
+    });
+});
+
+                    $(document).ready(function(){
+                    $("button#btn_Contact").click(function(){
+                        $("#AboutMeDiv").hide();
+                        $("#CoursesDiv").hide();
+                        $("#Mydiv3").hide();
+                        $("#Cvdiv").hide();
+                        $("#GalleryDiv").hide();
+                        $("#ResultsDiv").hide();
+                        $("#ContactDiv").slideToggle(500);
+                        $("#ContactDiv").show();
+
+
+    });
+});
+
+
+        // Below is where I added the preview function through Javascript
+        function Preview(image) {
+            document.getElementById("Preview").innerHTML = "<image src=\"" + image + "\"></img>";
+
+        }
+  </script>
+
+</head>
+    
+
+<body id="large-header" class="large-header">
+
+ 
+
+    <table class="tbl_main">
+        <tr>
+            
+            <td class ="Personal_infor">
+           
+            <div>
+                    <p><img src="Images/PP.jpg" class= "Img_"></p>
+                    <p><img src="Images/PP.jpg" class= "Img_mobile"></p>
+                </div> 
+
+                <h1>N A M E</h1>
+                    <p>Vhusani</p>
+                <h1>S U R N A M E</h1>
+                    <p>Libago</p>
+                <h1>D O B</h1>
+                    <p>November 05</p>
+                <h1>F R O M</h1>
+                    <div class = "imgbox">
+                    <p><a href="https://www.google.co.za/search?q=south+africa&rlz=1C1CHZL_enZA742ZA742&oq=sou&aqs=chrome.0.69i59j0j69i57j0l3.1646j0j7&sourceid=chrome&ie=UTF-8" target="blank"><img class= "img_nationality" src="Images/GIFunnamed1.png"></a></p>
+           
+                        <br>
+                        <p class="Copyright" style="width: 100%; color: #ababab; font-size: 0.6vw; text-align: center; margin-top: 60%">©2016 Vhusani Libago</p>
+                   </div>     
+                </td>
+
+            <td class = "main_td" style=" background-color: Transparent;  width: 80vw; height: 40vw">
+                
+                
+   <div class="nav">
+    <div class="container">
+        
+      <div id="home" class="button1 line start">
+        <button id="Aboutme"  >About</button>
+      </div>
+        <div id="contact" class="button1 line mid">
+         <button id="btn_Course" >Skills</button>
+      </div>
+        <div id="contact" class="button1 line mid">
+         <button id="btn_results" >Experience</button>
+      </div>
+      <div id="portfolio" class="button1 line mid">
+         <button id="btn_CV" >Resume</button>
+      </div>
+      <div id="other" class="button1 line end">
+         <button id="btn_Contact"  >Contact</button>
+      </div>
+    </div>
+  </div> 
+                
+                <div id="AboutMeDiv" style="background-color: transparent; width:71%;margin-left: 15%; display: none; margin-top:0%;">
+                  
+                    
+            <!--<img style="width: 280px; height: 70px; margin-left: 385px; margin-top: 50px" src="Images/pandora-christie-all-about-me-1.png">---> 
+                    <div class="title">
+                            About Ssani
+                        </div>
+                        <br>
+                       <h2>
+                                Software-Database-Web Developer from
+                           <br>
+                           Cape Town, South Africa
+                        </h2>
+                         <div class = "content">
+                <p style="font-size:vw; color: #dba30e; margin-bottom: 0vw;  width: 99%;">A happy guy, coffee addicted, loves programing and technology in general. <br>Mostly, I try to learn everything I can. I believe getting your hands dirty is the best way to learn new things.
+                Most of my coding experience were built upon C# & SQL Development, but I have played in the past with some other things like Php, Wordpress and Java.
+                <br>I'm open minded to new technologies, but systems development and web development are the two things I am focused on recently.
+                I'm a hard worker, committed and a self learner. Thing is, I'm not a guru jedi rockstar ninja, but I always get my stuff done.</p>
+                             <br>
+                             <h2>
+                                
+                        Connect with me on social media!!
+                        </h2>
+                             
+                        <footer>
+                            <ol>
+                                
+                               
+                         <div class="imgbox1" style = "margin-left: -408px;">
+                            <a href="https://twitter.com/busani_libago" target="blank"><img style=" height: auto; width: 4vw" src="Images/unnamed%20(2).png"></a>
+                            <a href="https://za.linkedin.com/in/vhusani-libago-6a1189123" style="margin-left: 23px;" target="blank"><img style="height: auto; width: 10vw" src="Images/unnamed%20(3).png"></a>
+                            <a href="https://www.instagram.com/vhusani.libago/?hl=en" style="margin-left: 41px" target="blank"><img style="height: auto; width: 3.2vw" src="Images/unnamed%20(4).png"></a>   
+                           </div>
+                                    
+                            </ol>
+
+                        </footer>
+                        </div>
+                    
+                </div>
+
+
+<div id="CoursesDiv" style="background-color: white; display: none; width: 63vw;height: 30vw; margin-left: 12.3%;"> 
+        <br>
+        <div style="background-color: #444745; width:15vw; height:6.5vw; float:left; text-align: centre;font-size: 0.9vw; border-top-left-radius: 5px;">
+            <p style=" margin-top: 18%;">Category</p>
+         </div>
+        <div style="background-color: #f0f0f0; width: 18vw; height:6.5vw; float:left; font-size: 0.9vw;" >
+            <p style=" color: #444745; margin-top: 15%;" >Skill-Application-Platform</p>
+         </div>
+        <div style="background-color: #444745;; width: 15vw; height:6.5vw; float:left; font-size: 0.9vw;" >
+   
+            <p style="margin-top: 18%;">Skills Level</p>
+            <p style="text-align: center; font-size: 9px;margin-left: 2%;margin-top: -4%; font-size: 0.5vw;">None,Novice,Junior, Intermediate, Senior, Architect, etc.</p>
+         </div>
+        <div style="background-color: #f0f0f0; width: 15vw; height:6.5vw; float:left; font-size: 0.9vw;border-top-right-radius: 5px;" >
+         <p style="color: #444745; margin-top: 18%;">Skills Grading</p>
+        <p style="text-align: center; font-size: 9px;    color: #444745;margin-left: 2%;margin-top: -4%; font-size: 0.5vw">(basic)1-1(Expert)</p>
+         </div>
+        <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: white; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Database Skills</p>
+         </div>
+        <div style="background-color: white; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">SQL</p>
+         </div>
+        <div style="background-color: white; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Junior</p>
+         </div>
+        <div style="background-color: White; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">8</p>
+                </div>
+    
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: f0f0f0; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Database Skills</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Microsoft SQL Server Reporting Services</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Junior</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">8</p>
+                </div>
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: white; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Developer Aids</p>
+         </div>
+        <div style="background-color: white; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Notepad++</p>
+         </div>
+        <div style="background-color: white; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Intermediate</p>
+         </div>
+        <div style="background-color: White; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">10</p>
+                </div>
+    
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: f0f0f0; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Microsoft.Net</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Silverlight Application Development</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Junior</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">6</p>
+                </div>
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: white; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Microsoft.Net</p>
+         </div>
+        <div style="background-color: white; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Windows Forms Application Development</p>
+         </div>
+        <div style="background-color: white; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Intermediate</p>
+         </div>
+        <div style="background-color: White; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">10</p>
+                </div>
+    
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: f0f0f0; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Microsoft.Net</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Windows Phone Application Development</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Junior</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">7</p>
+                </div>
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: white; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Microsoft.Net</p>
+         </div>
+        <div style="background-color: white; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">WPF Application Development</p>
+         </div>
+        <div style="background-color: white; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Junior</p>
+         </div>
+        <div style="background-color: White; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">8</p>
+                </div>
+    
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: f0f0f0; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Microsoft.Net</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Silverlight Application Development</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Junior</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">6</p>
+                </div>
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: white; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Programming</p>
+         </div>
+        <div style="background-color: white; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">C# Programming</p>
+         </div>
+        <div style="background-color: white; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Junior</p>
+         </div>
+        <div style="background-color: White; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">6</p>
+                </div>
+    
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: f0f0f0; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Programming</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Javascript Programming</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Novice</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">4</p>
+                </div>
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: white; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Web Development</p>
+         </div>
+        <div style="background-color: white; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">HTML & CSS</p>
+         </div>
+        <div style="background-color: white; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Junior</p>
+         </div>
+        <div style="background-color: White; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">10</p>
+                </div>
+    
+            <!-------------------------------------CUT--------------------------------->
+            <div style="background-color: f0f0f0; width:15vw; height:1.8vw; float:left; text-align: centre;font-size: 1vw; border-bottom-left-radius: 5px;" >
+        <p style="text-align: center; color: black; font-size: 0.7vw">Web Development</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 18vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">WordPress</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">Novice</p>
+         </div>
+        <div style="background-color: f0f0f0; width: 15vw; height:1.8vw; float:left; font-size: 1vw; border-bottom-right-radius: 5px;" >
+            <p style="text-align: center; color: black; font-size: 0.7vw">8</p>
+                </div>
+    <br>
+     <img src="Badges/mta-software-development-fundamentals-certified-2016%20(1).png" style="width: 7vw; height:auto; float: left; margin-left:0%; margin-top: 2%;margin-left: 0%;">
+    <img src="Badges/mcsd-app-builder-certified-2016%20(2).png" style="width: 7vw; height:auto; float: left; margin-left:0%; margin-top: 2%">
+    <img src="Badges/mcsa-web-applications%20(1).png" style="width: 7vw; height:auto; margin-left:0%; margin-top: 2%;">
+    
+                </div>
+                <br>
+<div id="Cvdiv" style="background-color: #888b89; width:auto; display: none; margin-left: 12%; margin-right:7%;border-radius: 12px; ">
+                    <br>
+                    <br>
+    <iframe src="https://docs.google.com/viewer?srcid=0B1DU8xb2YHRZcjFUbU9tQkx3dzA&pid=explorer&efh=false&a=v&chrome=false&embedded=true" style = "width:59.7vw; height: 25vw;vertical-align: middle;margin-left: 4%;"> 
+            <p style="font-size: 110%;"><em><strong>ERROR: </strong>  
+            An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most       recent version and try again.</p>
+    </iframe>
+                    <br>
+                    <br>
+                    <div style="width: 5vw; height: 5vw; border-radius: 45px; background-color: #525659; margin-left: 46%;margin-top: 1vw;"></div>
+                    <br>
+                </div>
+
+
+                <div id="ResultsDiv" style="background-color: transparent; width:auto; display: none; margin-left: 18%;     height: auto;">
+                    <table class="Experince_tbl">
+                    <tr>
+                    <td style="background-color: transparent; width: 55vw">
+                                                
+                        <a href="http://www.lumico.co.za" target="blank"><img src="Logo/Lumico-jpg.jpg" style="width:21vw; margin-top: 0%; height: auto;margin-left: 17.1vw;"></a>
+                        <p style="color: #010101; margin-top: 0%; font-size: 1vw;">
+                        <b>Position :</b>Wordpress Intern
+                            <br>
+                        <b>Date :</b>March 2017
+                            <br>
+                            <b>Roles & Responsibilities </b>
+                            <br>
+                            1. Designing and implementing new features and functionality  
+                            <br>
+                            2. Establishing and guiding the website’s architecture  
+                            <br>
+                            3. Ensuring high-performance and availability, and managing all technical aspects of the CMS 
+                            <br>
+                            4. Helping formulate an effective, responsive design and turning it into a working theme and plugin  
+                        </p>
+                        <a href="http://www.Warpdevelopment.co.za" target="blank"><img src="Logo/new-logo.jpg" style="width: 26vw; height: auto; margin-left: 14vw;"></a>
+                        <p style="color: #010101; font-size: 1vw">
+                        <b>Position :</b>.Net Developer (Student Intern)
+                            <br>
+                        <b>Date :</b>October 2016
+                            <br>
+                            <b>Roles & Responsibilities </b>
+                            <br>
+                            1. Develop user interfaces and client displays 
+                            <br>
+                            2. Design, initiate and handle technical designs and complex web features  
+                            <br>
+                            3. Develop databases 
+                            <br>
+                            4. Presenting ideas for system improvements 
+                            <br>
+                            5. Working close with analysts, designers and staff 
+                        </p>
+                    </td>
+
+                    </tr>
+                    </table>
+                </div>
+                
+
+                <div id="GalleryDiv" style="background-color: Transparent; display: none">
+                    <content class = "Maincontent">
+            <div>
+        <div id="thumbnails" class="thumbnails">
+            <!-- Making thumbnails in your gallery for previews-->
+    <img class = "img_Prev" onmouseover="Preview('Images/Gallery/Image1.png')" src="Images/Gallery/Image1.png" alt="Pic" />
+    <img class = "img_Prev" onmouseover="Preview('Images/Gallery/Image2.png')" src="Images/Gallery/Image2.png" alt="Pic" />
+    <img class = "img_Prev" onmouseover="Preview('Images/Gallery/Image3.png')" src="Images/Gallery/Image3.png" alt="Pic" />
+    <img class = "img_Prev" onmouseover="Preview('Images/Gallery/Image4.png')" src="Images/Gallery/Image4.png" alt="Pic" />
+    <img class = "img_Prev" onmouseover="Preview('Images/Gallery/Image5.png')" src="Images/Gallery/Image5.png" alt="Pic" />
+
+        </div>
+        <div id="Preview">
+
+        </div>
+            </div>
+                    </content>
+                </div>
+
+                <div id="ContactDiv" style="background-color: white; display: none; width: 70vw;height: 35vw;    margin-left: 8%;">
+                   <br>
+    <div id="form-main">
+    <form class="form" id="form1">  
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      <div class="submit" style="width: 20vw" >
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13246.015188386853!2d18.611625!3d-33.9024311!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5a89b54c1437%3A0xa5c37fc53bcf8202!2s23+Clarendon+St%2C+Klipkop%2C+Cape+Town%2C+7501!5e0!3m2!1sen!2sza!4v1497534847250"  frameborder="0" style="width: 49%; margin-top:  2%; margin-left: 3%; height: 20.8vw;    border-radius: 5px;"></iframe>
+                    
+                    
+    <p style="float: left; margin-left: 12.7%; color: rgb(62, 68, 65); font-size: 1vw; width: 21vw;" > <b>Cape Town, Clarendon Street, Tygerberg NO 23</b><br><br><a href="mailto:Vhusani.libago@gmail.com">Vhusani.libago@gmail.com</a><span style="color: black" >|</span><a href="tel: +27711160206" style="text-decoration: none; color :#3e4441 ">+27711160206</a> <br><br>
+                    If you have any questions, please don't hesitate to contact me.
+
+                    </p>  
+                    
+                </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+
+<table class="tbl_mobile">
+    <tr>
+        <td class ="Personal_infor1"> 
+            <br>
+            <h1 class="title">About Ssani</h1> 
+                        <h2>
+                    Software-Database-Web Developer from
+                <br>
+                    Cape Town, South Africa
+            </h2>
+            <div class="content">
+                A happy guy, coffee addicted, loves programing and technology in general. <br>Mostly, I try to learn everything I can. I believe getting your hands dirty is the best way to learn new things.
+                Most of my coding experience were built upon C# & SQL Development, but I have played in the past with some other things like Php, Wordpress and Java.
+                <br>I'm open minded to new technologies, but systems development and web development are the two things I am focused on recently.
+                I'm a hard worker, committed and a self learner. Thing is, I'm not a guru jedi rockstar ninja, but I always get my stuff done.
+            </div>
+            <br>
+            <h1 class="title">Hobbies</h1>
+            <h1 style="text-align: center; margin-bottom: 0%">
+            <img src="Images/Hobbies.png" style="width: 60%; height: auto">
+            </h1>
+            <br>
+            <h1 class="title" >Skills</h1>
+            <h1 style="text-align: center; margin-bottom: 0%">
+            <img src="Logo/Skills.png" style="width: 55%; height: auto"><br><br>
+            <!-----<img src="Logo/SQL.png" style="width: 43%; height: auto; margin-left: -9%"><br><br>
+            <img src="Logo/html.png" style="width: 46%; height: 26%; margin-left: 0%"><br><br>
+            <img src="Logo/CSS-Logo-214x300.png" style="width: 37%; height: 30%; margin-left: 0%"><br><br>
+            <img src="Logo/JavaScript-logo.png" style="width: 35%; height: 30%; margin-left: 2%"><br><br>
+            <img src="Logo/Wordpress.png" style="width: 33%; height: auto; margin-left: 1%"><br><br>------>
+            </h1>
+            <h1 class="title" style="margin-top:-7%" >Experience</h1>
+            <h1 style="text-align: center; margin-bottom: 0%">
+            <a href="http://www.lumico.co.za" target="blank"><img src="Logo/LumicoLogo_2015-01.png" style="width: 55%; height: auto; margin-left: -5%;"></a>
+            <p>March 2017</p>
+            <a href="http://www.warpdevelopment.co.za/" target="blank"><img src="Logo/Untitled-1.png" style="width: 55%; height: auto; margin-left: 1%;"></a>
+            <p>October 2016</p>
+            </h1>
+            <h1 class="title">Level</h1>
+            <h2>Junior</h2>
+            <h1 class="title" >Resume</h1>
+            <div style="background-color: rgb(136, 139, 137);    border-radius: 10px; width: 90%; height: 128vw; margin-left: 4.8%">
+            <p style="text-align: centre">
+             
+                
+                <iframe src="https://docs.google.com/viewer?srcid=0B1DU8xb2YHRZcjFUbU9tQkx3dzA&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="margin-top:6%; width: 90%; height: 85%;" allowfullscreen></iframe>
+                
+                
+                
+                </p>
+                <div style="height: 6vw; width: 15vw; background-color: #525659; margin-left: 41%; border-radius: 2px;"></div>
+            </div>
+            <br>
+            <h1 class="title">Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13246.015188386853!2d18.611625!3d-33.9024311!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5a89b54c1437%3A0xa5c37fc53bcf8202!2s23+Clarendon+St%2C+Klipkop%2C+Cape+Town%2C+7501!5e0!3m2!1sen!2sza!4v1497534847250"  frameborder="0" style="width: 100%; margin-top:  0%; height: 47%;    border-radius: 5px;"></iframe>
+            <br>
+            <br>
+            <p>Hey! if you have any questions, please don't hesitate to contact me.</p> 
+        <form class="form" id="form1">  
+            <p class="name">
+            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+                </p>
+                <p class="email">
+            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                </p>
+                <p class="text">
+            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+                </p>
+            <div class="submit">
+                <input type="submit" value="SEND" id="button-blue"/>
+                <div class="ease"></div>
+            </div>
+        </form>
+            <p><a href="mailto: Vhusani.libago@gmail.com" style="text-decoration: none; color: white">Vhusani.libago@gmail.com</a><br><br>
+            <a href="tel: +27711160206" style="color: white; text-decoration: none" >+27711160206</a></p> 
+        <div class="imgbox1" style = "margin-left: 0%; text-align: center">
+            <a href="https://twitter.com/busani_libago" target="blank"><img style=" height: auto; width: 15vw" src="Images/unnamed%20(2).png"></a>
+            <a href="https://za.linkedin.com/in/vhusani-libago-6a1189123" style="margin-left: 0vw" target="blank"><img style="height: auto; width: 40vw" src="Images/unnamed%20(3).png"></a>
+            <a href="https://www.instagram.com/vhusani.libago/?hl=en" style="margin-left: 3vw" target="blank"><img style="height: auto; width: 13vw" src="Images/unnamed%20(4).png"></a>   
+        </div>
+            <br>
+            <h1 class="title">Others</h1>
+            <a href="https://ctutraining.ac.za"><img src="Logo/CTU1.png" style="width: 45vw; height: auto; margin-top: -8%; margin-left: 27%; "></a>
+            <br>
+            <p style="font-size: 2.1vw; margin-left: 0%; width: 100%; text-align: center; color: #d1d1d1; font-family: calibri">©2016 Vhusani Libago</p>
+        </td>           
+    </tr>
+</table>
+</body>
+</html>
