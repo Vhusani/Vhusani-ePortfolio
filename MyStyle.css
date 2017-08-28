@@ -571,6 +571,7 @@ h8{
 
 #form-main{
     width: 47%;
+	display: none;
     margin-left: 0vw;
     margin-top: 0%;
     float: left;
