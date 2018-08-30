@@ -98,10 +98,10 @@ button{
 
 h3{
     text-align: center !important;
-    margin-top: 3%;
-    font-size: 1.2vw;
-    font-family: Agency FB;
-    color: #2b4554;
+    margin-top: 3% !important;
+    font-size: 1.2vw !important;
+    font-family: Agency FB !important;
+    color: #2b4554 !important;
 }
 
 #nav ul button{
