@@ -1122,6 +1122,7 @@ bottom:0;
 {
     display:inline-block;
     border:0;
+	border-radius: 3px;
     width:196px;
     height:210px;
     position: relative;
